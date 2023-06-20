@@ -7,7 +7,7 @@ permalink: /guides/
 [//]: # (As per https://stackoverflow.com/questions/31017554/jekyll-post-links-not-including-base-url, include base url in linnks)
 
 If you have any questions or comments on any information on this site, please start
-a [discussion](https://github.com/alrichardbollans/scratch/discussions).
+a [discussion](https://github.com/alrichardbollans/alrichardbollans.github.io/discussions).
 
 {% for g in site.guides %}
 <h2>
