@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collected Work 
+title: Collected Work
 permalink: /pubs/
 ---
 
@@ -21,17 +21,17 @@ Reasoning [https://ceur-ws.org/Vol-2052/paper17.pdf](https://ceur-ws.org/Vol-205
 
 ### Selected Presentations
 
-Modelling the polysemy of spatial prepositions in referring expressions, 17th International Conference on
-Principles of Knowledge Representation and Reasoning 2020 | [Slides][krslides]
+Harnessing Plant Traits and AI to Predict Plant Bioactivity, 19th World Congress of Basic & Clinical Pharmacology 2023 | [Slides][wcpslides]
 
-Automatic generation of typicality measures for spatial language in grounded settings, 24th European
-Conference on Artificial Intelligence 2020 | [Slides][ecaislides]
+Modelling the polysemy of spatial prepositions in referring expressions, 17th International Conference on Principles of Knowledge Representation and Reasoning 2020 | [Slides][krslides]
 
-The role of pragmatics in solving the Winograd Schema Challenge, 13th International Symposium on Commonsense
-Reasoning 2017 | [Slides][csrslides]
+Automatic generation of typicality measures for spatial language in grounded settings, 24th European Conference on Artificial Intelligence 2020 | [Slides][ecaislides]
 
-For recorded presentations, see my [Youtube Channel](https://www.youtube.com/channel/UCwFkmZHOGCgMRTaeVH5jSuw)
-.
+The role of pragmatics in solving the Winograd Schema Challenge, 13th International Symposium on Commonsense Reasoning 2017 | [Slides][csrslides]
+
+For recorded presentations, see my [Youtube Channel](https://www.youtube.com/channel/UCwFkmZHOGCgMRTaeVH5jSuw).
+
+[wcpslides]: pdfs/slides/3MWCP2023.pdf
 
 [krslides]: pdfs/slides/kr_alrb_2020.pdf
 

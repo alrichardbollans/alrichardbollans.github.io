@@ -18,14 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Scratch Space
+title: Scratch space
 email: a.richard-bollans@kew.org
+name: Adam Richard-Bollans
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of work and useful resources.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alrichardbollans.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alrichardbollans
 collections_dir: my_collections
+
 
 collections:
   guides:
