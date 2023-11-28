@@ -57,7 +57,7 @@ Examples:
 
 ### Machine Learning Classification
 
-We can also set up a model to predict species/regions based on the LCMS data, we may help to support that metabolite data can be used to distinguish
+We can also set up a model to predict species/regions based on the LCMS data, doing this can support that metabolite data can be used to distinguish
 the species.
 
 Examples:
@@ -75,11 +75,13 @@ discoverer packages.
 
 #### Statistical Significance Correction
 
-To control the error associated with multiple tests, carry out Holm-Bonferroni
-Correction (https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) or Hochberg
-Correction (https://academic.oup.com/biomet/article-abstract/75/4/800/423177) if the p values are independent --- usually for us they won't be
-independent as they relate to the same pairs of species or compounds. It is possible that Tukey's HSD is incorrectly used in (Florence Souard et al.,
+To control the error associated with multiple tests we need to correct the p values. [Holm-Bonferroni
+Correction](https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) is a good method, and [Hochberg
+Correction](https://academic.oup.com/biomet/article-abstract/75/4/800/423177) is a better option if the p values are independent --- usually for us they won't be
+independent as they relate to the same pairs of species or compounds. These can both be carried out in a python
+script e.g. see [statsmodels](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html).
+
+On a related note, it is possible that Tukey's HSD is incorrectly used in (Florence Souard et al.,
 “Metabolomics Fingerprint of Coffee Species Determined by Untargeted-Profiling Study Using LC-HRMS,” _Food Chemistry_ 245 (April 2018):
-603–12, [https://doi.org/10.1016/j.foodchem.2017.10.022](https://doi.org/10.1016/j.foodchem.2017.10.022).) . These can both be carried out in a python
-script e.g. see https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html.
+603–12, [https://doi.org/10.1016/j.foodchem.2017.10.022](https://doi.org/10.1016/j.foodchem.2017.10.022).) . 
 
