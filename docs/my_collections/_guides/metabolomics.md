@@ -69,20 +69,18 @@ Examples:
 #### Normalization
 
 Careful preprocessing, including data normalization and transformation, is crucial to ensure accurate comparisons. Normalization methods like median
-scaling, log transformation, or autoscaling are commonly used in LC-MS data analysis. This has hopefully already been done by the lcms/compound
-discoverer packages.
+scaling, log transformation, or autoscaling are commonly used in LC-MS data analysis.
 
 #### Statistical Significance Correction
 
 To control the error associated with multiple tests we need to a correction procedure. To control for
 the [family-wise error rate](https://en.wikipedia.org/wiki/Family-wise_error_rate), there are a few common
-methods. [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) is often used (
-e.g. [here](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2117-2)
+methods. [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) is often used (e.g. [here](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2117-2)
 and [here](https://www.sciencedirect.com/science/article/pii/S0169743921000393)), though this is a weak method. [Holm-Bonferroni
 Correction](https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) is uniformly more powerful than the Bonferroni method, and [Hochberg
 Correction](https://academic.oup.com/biomet/article-abstract/75/4/800/423177) is a still more powerful option if the p values are independent. Tukey's
 HSD can be used when comparing means, and is used [here](https://doi.org/10.1016/j.foodchem.2017.10.022), as well as in Compound Discoverer. These can
-be carried out in a python script e.g. see [statsmodels](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html).
+be carried out in a python script e.g. see [statsmodels multiple tests](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html) and [statsmodels multiple comparisons](https://www.statsmodels.org/stable/generated/statsmodels.sandbox.stats.multicomp.MultiComparison.html#statsmodels.sandbox.stats.multicomp.MultiComparison).
 
 Some analyses use [False Discovery Rate](https://en.wikipedia.org/wiki/False_discovery_rate) correction, which are more powerful but less stringent
 than correcting for family-wise error.
