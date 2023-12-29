@@ -78,20 +78,16 @@ To control the error associated with multiple tests we need to a correction proc
 the [family-wise error rate](https://en.wikipedia.org/wiki/Family-wise_error_rate), there are a few common
 methods. [Bonferroni correction](https://en.wikipedia.org/wiki/Bonferroni_correction) is often used (
 e.g. [here](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2117-2)
-and [here](https://www.sciencedirect.com/science/article/pii/S0169743921000393)), though this is a weak method.[Holm-Bonferroni
+and [here](https://www.sciencedirect.com/science/article/pii/S0169743921000393)), though this is a weak method. [Holm-Bonferroni
 Correction](https://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method) is uniformly more powerful than the Bonferroni method, and [Hochberg
-Correction](https://academic.oup.com/biomet/article-abstract/75/4/800/423177) is a still more powerful option if the p values are independent. These
-can be carried out in a python
-script e.g. see [statsmodels](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html).
+Correction](https://academic.oup.com/biomet/article-abstract/75/4/800/423177) is a still more powerful option if the p values are independent. Tukey's
+HSD can be used when comparing means, and is used [here](https://doi.org/10.1016/j.foodchem.2017.10.022), as well as in Compound Discoverer. These can
+be carried out in a python script e.g. see [statsmodels](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html).
 
-It seems to be common to use [False Discovery Rate](https://en.wikipedia.org/wiki/False_discovery_rate) correction, rather than the Family-wise error
-rate correction methods mentioned above. These types of corrections are more powerful but less stringent than correcting for family-wise error. An
-example use in metabolomics,
-example, Tukey's HSD is incorrectly used in (Florence Souard et al.,
-“Metabolomics Fingerprint of Coffee Species Determined by Untargeted-Profiling Study Using LC-HRMS,” _Food Chemistry_ 245 (April 2018):
-603–12, [https://doi.org/10.1016/j.foodchem.2017.10.022](https://doi.org/10.1016/j.foodchem.2017.10.022).) .
+Some analyses use [False Discovery Rate](https://en.wikipedia.org/wiki/False_discovery_rate) correction, which are more powerful but less stringent
+than correcting for family-wise error.
 
-Compound Discoverer (v 3.1), does some adjustments by default. In the differential analysis, the p-value for the sample group calculated by running
+Compound Discoverer (v 3.1), does some adjustments by default. In the differential analysis, the p-value for the sample group is calculated by running
 the Tukey HSD test (posthoc) after an analysis of variance (ANOVA) test. An 'adjusted' p value is also provided using the Benjamini-Hochberg
-algorithm. Note these are both methods for correcting the false discovery rate and that in the volcano plots the former is used.
+algorithm to account for the false discovery rate. Note that in the volcano plots the former is used.
 
