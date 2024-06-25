@@ -21,6 +21,8 @@ Reasoning [https://ceur-ws.org/Vol-2052/paper17.pdf](https://ceur-ws.org/Vol-205
 
 ### Selected Presentations
 
+Harnessing Botanical and Mycological Knowledge: Data-Driven Solutions for Global Challenges, DataScience@work seminar 2024 | [Abstract](https://compass.blogs.bristol.ac.uk/calendar_event/kew-gardens-datasciencework-seminar/)
+
 Harnessing Plant Traits and AI to Predict Plant Bioactivity, 19th World Congress of Basic & Clinical Pharmacology 2023 | [Slides][wcpslides]
 
 Modelling the polysemy of spatial prepositions in referring expressions, 17th International Conference on Principles of Knowledge Representation and Reasoning 2020 | [Slides][krslides]
