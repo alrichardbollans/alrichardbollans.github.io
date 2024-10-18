@@ -41,6 +41,17 @@ For recorded presentations, see my [Youtube Channel](https://www.youtube.com/cha
 
 [csrslides]: pdfs/slides/csr_alrb__The_Role_of_Pragmatics_in_Solving_the_Winograd_Schema_Challenge.pdf
 
+### Posters
+
+[Unveiling Hidden Gems: Harnessing Plant Data for Antiplasmodial Drug Discovery][ecnpposter], 5th European Conference on Natural Products 2024
+
+[Generating and Interpreting Referring Expressions with Vague Spatial Language][HLCposter], Human-Like Computing Machine Intelligence Workshop 2019
+
+
+[ecnpposter]: pdfs/posters/ecnp_poster.pdf
+
+[HLCposter]: pdfs/posters/HLC19.pdf
+
 ### Essays
 
 [What was Hilbert's programme?][hilbs]
