@@ -12,7 +12,7 @@ also working on projects involving computer vision, text mining, metabolomics, n
 
 If you have any questions or comments, don't hesitate to get in touch.
 
-#### _Links_
+#### Links
 
 
 - [Kew](https://www.kew.org/science/our-science/people/adam-richard-bollans)

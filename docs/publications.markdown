@@ -4,7 +4,7 @@ title: Collected Work
 permalink: /pubs/
 ---
 
-### Recent Publications
+### Selected Publications
 
 Adam Richard-Bollans et al. (2023). _Machine learning enhances prediction of plants as potential sources of
 antimalarials_, Frontiers in Plant Science
