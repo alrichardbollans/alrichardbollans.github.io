@@ -3,41 +3,72 @@ layout: page
 title: Collected Work
 permalink: /pubs/
 ---
+<style>
+.post-title, h1.title, h1.page-title {
+  display: none;
+}
+</style>
 
-### Selected Publications
+[//]: # (<h1 align="center">Collected Work</h1>)
+<p align="left">
+  <em>Research · News · Presentations · Essays</em>
+</p>
 
-Adam Richard-Bollans et al. (2023). _Machine learning enhances prediction of plants as potential sources of
-antimalarials_, Frontiers in Plant Science
-14 [https://doi.org/10.3389/fpls.2023.1173328](https://doi.org/10.3389/fpls.2023.1173328).
+---
+<br/>
 
-Adam Richard-Bollans, Lucía Gómez Álvarez, and Anthony G. Cohn, (2023).
-_Identifying and modelling polysemous senses of spatial prepositions in referring expressions_, Cognitive
-Systems Research
-77 [https://doi.org/10.1016/j.cogsys.2022.09.004](https://doi.org/10.1016/j.cogsys.2022.09.004).
+#### 📚 Selected Publications
 
-Adam Richard-Bollans, Lucía Gómez Álvarez, and Anthony G. Cohn, (2017). _The role of pragmatics in solving the
-Winograd Schema Challenge_, Proceedings of the 13th International Symposium on Commonsense
-Reasoning [https://ceur-ws.org/Vol-2052/paper17.pdf](https://ceur-ws.org/Vol-2052/paper17.pdf).
+<div style="margin-bottom: 1.5em;">
+  <strong>Adam Richard-Bollans et al.</strong> (2023)<br/>
+  <em>Machine learning enhances prediction of plants as potential sources of antimalarials</em>.<br/>
+  <a href="https://doi.org/10.3389/fpls.2023.1173328" target="_blank">Frontiers in Plant Science</a>
+</div>
 
-### In News & Blogs
 
-[How machine learning can help us conserve orchid seeds](https://www.kew.org/read-and-watch/machine-learning-orchid-seed-conservation)
+<div style="margin-bottom: 1.5em;">
+  <strong>Adam Richard-Bollans, Lucía Gómez Álvarez, and Anthony G. Cohn</strong> (2023)<br/>
+  <em>Identifying and modelling polysemous senses of spatial prepositions in referring expressions</em>.<br/>
+  <a href="https://doi.org/10.1016/j.cogsys.2022.09.004" target="_blank">Cognitive Systems Research</a>
+</div>
 
-[Study Explores the ‘Arabica-Like’ Cup Qualities of the Stenophylla Coffee Species](https://dailycoffeenews.com/2025/03/25/study-explores-the-arabica-like-cup-qualities-of-the-stenophylla-coffee-species/)
 
-### Selected Presentations
+<div style="margin-bottom: 1.5em;">
+  <strong>Adam Richard-Bollans, Lucía Gómez Álvarez, and Anthony G. Cohn</strong> (2017)<br/>
+  <em>The role of pragmatics in solving the Winograd Schema Challenge</em>.<br/>
+  <a href="https://ceur-ws.org/Vol-2052/paper17.pdf" target="_blank">Proc. 13th International Symposium on Commonsense Reasoning</a>
+</div>
 
-Harnessing Botanical and Mycological Knowledge: Data-Driven Solutions for Global Challenges, DataScience@work seminar 2024 | [Abstract](https://compass.blogs.bristol.ac.uk/calendar_event/kew-gardens-datasciencework-seminar/)
+---
+<br/>
+#### 📰 In News & Blogs
 
-Harnessing Plant Traits and AI to Predict Plant Bioactivity, 19th World Congress of Basic & Clinical Pharmacology 2023 | [Slides][wcpslides]
 
-Modelling the polysemy of spatial prepositions in referring expressions, 17th International Conference on Principles of Knowledge Representation and Reasoning 2020 | [Slides][krslides]
+- [How machine learning can help us conserve orchid seeds](https://www.kew.org/read-and-watch/machine-learning-orchid-seed-conservation)
 
-Automatic generation of typicality measures for spatial language in grounded settings, 24th European Conference on Artificial Intelligence 2020 | [Slides][ecaislides]
+- [Study Explores the ‘Arabica-Like’ Cup Qualities of the Stenophylla Coffee Species](https://dailycoffeenews.com/2025/03/25/study-explores-the-arabica-like-cup-qualities-of-the-stenophylla-coffee-species/)
 
-The role of pragmatics in solving the Winograd Schema Challenge, 13th International Symposium on Commonsense Reasoning 2017 | [Slides][csrslides]
+---
+<br/>
+#### 🎤 Selected Presentations
 
-For recorded presentations, see my [Youtube Channel](https://www.youtube.com/channel/UCwFkmZHOGCgMRTaeVH5jSuw).
+- <strong>Harnessing Botanical and Mycological Knowledge</strong><br/>
+  DataScience@work seminar 2024 | [Abstract](https://compass.blogs.bristol.ac.uk/calendar_event/kew-gardens-datasciencework-seminar/)
+- <strong>Harnessing Plant Traits and AI to Predict Plant Bioactivity</strong><br/>
+  19th World Congress of Basic & Clinical Pharmacology 2023 | [Slides][wcpslides]
+- <strong>Modelling the polysemy of spatial prepositions in referring expressions</strong><br/>
+  17th Int. Conference on Principles of Knowledge Representation & Reasoning 2020 | [Slides][krslides]
+- <strong>Automatic generation of typicality measures for spatial language in grounded settings</strong><br/>
+  24th European Conf. Artificial Intelligence 2020 | [Slides][ecaislides]
+- <strong>The role of pragmatics in solving the Winograd Schema Challenge</strong><br/>
+  Commonsense Reasoning Symposium 2017 | [Slides][csrslides]
+
+<p align="left">
+  For recorded presentations, see my <a href="https://www.youtube.com/channel/UCwFkmZHOGCgMRTaeVH5jSuw" target="_blank"><strong>Youtube Channel</strong></a>.
+</p>
+
+---
+
 
 [wcpslides]: pdfs/slides/3MWCP2023.pdf
 
@@ -46,25 +77,27 @@ For recorded presentations, see my [Youtube Channel](https://www.youtube.com/cha
 [ecaislides]: pdfs/slides/ecai_alrb_2020.pdf
 
 [csrslides]: pdfs/slides/csr_alrb__The_Role_of_Pragmatics_in_Solving_the_Winograd_Schema_Challenge.pdf
+<br/>
+#### 🖼️ Posters
 
-### Posters
+- [Unveiling Hidden Gems: Harnessing Plant Data for Antiplasmodial Drug Discovery][ecnpposter], 5th European Conference on Natural Products 2024
 
-[Unveiling Hidden Gems: Harnessing Plant Data for Antiplasmodial Drug Discovery][ecnpposter], 5th European Conference on Natural Products 2024
-
-[Generating and Interpreting Referring Expressions with Vague Spatial Language][HLCposter], Human-Like Computing Machine Intelligence Workshop 2019
+- [Generating and Interpreting Referring Expressions with Vague Spatial Language][HLCposter], Human-Like Computing Machine Intelligence Workshop 2019
 
 
 [ecnpposter]: pdfs/posters/ecnp_poster.pdf
 
 [HLCposter]: pdfs/posters/HLC19.pdf
 
-### Essays
+---
+<br/>
+#### Essays
 
-[What was Hilbert's programme?][hilbs]
+- [What was Hilbert's programme?][hilbs]
 
-[What was Frege’s notion of analyticity, and is it an improvement on Kant’s?][frege]
+- [What was Frege’s notion of analyticity, and is it an improvement on Kant’s?][frege]
 
-[An Introduction to O-minimality][ominimal]
+- [An Introduction to O-minimality][ominimal]
 
 
 [hilbs]: pdfs/alrb_Hilberts_Programme.pdf
