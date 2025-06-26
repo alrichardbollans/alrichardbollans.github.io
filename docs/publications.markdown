@@ -19,6 +19,12 @@ Adam Richard-Bollans, Lucía Gómez Álvarez, and Anthony G. Cohn, (2017). _The 
 Winograd Schema Challenge_, Proceedings of the 13th International Symposium on Commonsense
 Reasoning [https://ceur-ws.org/Vol-2052/paper17.pdf](https://ceur-ws.org/Vol-2052/paper17.pdf).
 
+### In News & Blogs
+
+[How machine learning can help us conserve orchid seeds](https://www.kew.org/read-and-watch/machine-learning-orchid-seed-conservation)
+
+[Study Explores the ‘Arabica-Like’ Cup Qualities of the Stenophylla Coffee Species](https://dailycoffeenews.com/2025/03/25/study-explores-the-arabica-like-cup-qualities-of-the-stenophylla-coffee-species/)
+
 ### Selected Presentations
 
 Harnessing Botanical and Mycological Knowledge: Data-Driven Solutions for Global Challenges, DataScience@work seminar 2024 | [Abstract](https://compass.blogs.bristol.ac.uk/calendar_event/kew-gardens-datasciencework-seminar/)
